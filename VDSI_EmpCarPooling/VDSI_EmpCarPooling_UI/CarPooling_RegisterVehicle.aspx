@@ -31,7 +31,23 @@
                         <asp:Label Text="Car Detail" ID="Label2" runat="server"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtCar" runat="server"></asp:TextBox>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <asp:Label Text="In Time" ID="Label7" runat="server"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="txtInTime" runat="server"></asp:TextBox>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <asp:Label Text="Out Time" ID="Label8" runat="server"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="txtOutTime" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -39,7 +55,7 @@
                         <asp:Label Text="From" ID="Label3" runat="server"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtFrom" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -47,7 +63,7 @@
                         <asp:Label Text="To" ID="Label4" runat="server"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtTo" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -55,7 +71,7 @@
                         <asp:Label Text="Via" ID="Label5" runat="server"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtVia" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -63,11 +79,11 @@
                         <asp:Label Text="Email" ID="Label6" runat="server"></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
                     </td>
                 </tr>
             </table>
-            <asp:Button ID="btnRegister" runat="server" Text="Register"></asp:Button>
+            <asp:Button ID="btnRegister" runat="server" Text="Register" OnClick="btnRegister_Click"></asp:Button>
         </div>
     </form>
 </body>

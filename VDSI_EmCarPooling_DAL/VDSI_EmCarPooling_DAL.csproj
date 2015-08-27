@@ -64,7 +64,7 @@
     <Compile Include="CARREGDETAIL.cs">
       <DependentUpon>CarPooling.tt</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
+    <Compile Include="VDSI_CARPEntities.cs" />
     <Compile Include="LOGIN.cs">
       <DependentUpon>CarPooling.tt</DependentUpon>
     </Compile>

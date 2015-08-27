@@ -8,6 +8,7 @@
         <EntityTypeShape EntityType="VDSI_CARPModel.CARREGDETAIL" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="VDSI_CARPModel.LOGIN" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="VDSI_CARPModel.POOLINGREQUEST" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VDSI_CARPModel.CARREGDETAIL1" Width="1.5" PointX="11.720993086565748" PointY="5.7183787402316826" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

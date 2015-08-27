@@ -55,6 +55,12 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="VDSI_EmpCarPooling_BLL">
+      <HintPath>..\VDSI_EmpCarPooling_BLL\bin\Debug\VDSI_EmpCarPooling_BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="VDSI_EmpCarPooling_DTO">
+      <HintPath>..\VDSI_EmpCarPooling_DTO\bin\Debug\VDSI_EmpCarPooling_DTO.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="VDSI_EmpCarPooling_UI\CarPooling_RegisterVehicle.aspx" />

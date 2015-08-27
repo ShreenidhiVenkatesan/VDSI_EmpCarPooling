@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using VDSI_EmpCarPooling_BLL;
 
 namespace VDSI_EmpCarPooling.VDSI_EmpCarPooling_UI
 {
@@ -18,9 +19,18 @@ namespace VDSI_EmpCarPooling.VDSI_EmpCarPooling_UI
         {
             if (!string.IsNullOrEmpty(txtUserName.Text) && !string.IsNullOrEmpty(txtPassword.Text))
             {
-                if (txtUserName.Text == "Shreenidhi")
-                    Session["EmpId"] = "2550549";
-                Response.Redirect("CarPooling_RegisterVehicle.aspx");
+                CarPoolingBLL carPoolingBll = new CarPoolingBLL();
+                string empId = carPoolingBll.getLoginDetails(txtUserName.Text, txtPassword.Text);
+                if (!string.IsNullOrEmpty(empId))
+                {
+                    Session["EmpId"] = empId;
+                    Response.Redirect("CarPooling_RegisterVehicle.aspx");
+                }
+                else
+                {
+                    ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "Notify", "alert('Notification : Invalid Username Or Password.');", true);
+               
+                }
             }
         }
     }

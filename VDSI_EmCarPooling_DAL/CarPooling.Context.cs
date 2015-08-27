@@ -25,8 +25,8 @@ namespace VDSI_EmCarPooling_DAL
             throw new UnintentionalCodeFirstException();
         }
     
-        public DbSet<CARREGDETAIL> CARREGDETAILS { get; set; }
         public DbSet<LOGIN> LOGINs { get; set; }
         public DbSet<POOLINGREQUEST> POOLINGREQUESTs { get; set; }
+        public DbSet<CARREGDETAIL> CARREGDETAILS { get; set; }
     }
 }
