@@ -12,7 +12,7 @@ namespace VDSI_EmpCarPooling_BLL
 
         //public void getLoginDetails(string username, string password)
         //{
-        //    VDSI_CARPEntities carPooling = new VDSI_CARPEntities();            
+        //     = new VDSI_CARPEntities();            
         //    var loginList = from l in LOGIN.
         //                     where 
         //}
