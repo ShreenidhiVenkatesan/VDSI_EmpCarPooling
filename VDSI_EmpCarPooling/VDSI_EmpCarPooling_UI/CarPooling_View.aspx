@@ -13,17 +13,17 @@
             <Columns>
                 <asp:TemplateField>
                     <ItemTemplate>
-                        <asp:Label runat="server" Text='<%[EmpId]%>'></asp:Label>
+                        <asp:Label runat="server" Text='<%#Eval("EmpId")%>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateField>
                 <asp:TemplateField>
                     <ItemTemplate>
-                        <asp:Label ID="Label1" runat="server" Text='<%[EmpId]%>'></asp:Label>
+                        <asp:Label ID="Label1" runat="server" Text='<%#Eval("From")%>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateField>
                 <asp:TemplateField>
                     <ItemTemplate>
-                        <asp:Label ID="Label2" runat="server" Text='<%[EmpId]%>'></asp:Label>
+                        <asp:Label ID="Label2" runat="server" Text='<%#Eval("To")%>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateField>
 
