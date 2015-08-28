@@ -5,20 +5,32 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="../style/StyleSheet1.css" rel="stylesheet" />
+    <link href="../style/StyleSheet1.css" rel="stylesheet" />    
+    <style type="text/css">
+        .auto-style1 {
+            height: 21px;
+        }
+    </style>
 </head>
 <body class="news">
-  <header>
+    <header>
+    </header>
+        <table style="position:absolute; top: 19px; left: 0px; height: 170px;">
+            <tr>
+                <td class="auto-style1"><div style="width: 271px; position:absolute; font-weight:bolder; text-align:center; top: -26px; left: 247px;">VDSI Employee Car Pooling</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="nav">
+                        <ul>
+                            <li class="home"><a href="CarPooling_RegisterVehicle.aspx">Registration</a></li>
+                            <li class="tutorials"><a class="active" href="CarPooling_View.aspx">Book a Cab</a></li>
 
-
-
-    <div class="nav">
-      <ul>
-        <li class="home"><a href="CarPooling_RegisterVehicle.aspx">Registration</a></li>
-        <li class="tutorials"><a class="active" href="CarPooling_View.aspx">Book a Cab</a></li>
-        
-      </ul>
-    </div>
-  </header>
-</body>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
 </html>

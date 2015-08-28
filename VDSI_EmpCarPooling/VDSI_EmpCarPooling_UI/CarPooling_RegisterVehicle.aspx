@@ -5,10 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="../style/StyleSheet1.css" rel="stylesheet" />    
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
+    <form id="form1" runat="server">        
             <table>
                 <tr>
                     <td>
@@ -82,9 +82,13 @@
                         <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
                     </td>
                 </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center">
+                        <asp:Button ID="btnRegister" runat="server" Text="Register" OnClick="btnRegister_Click"></asp:Button>
+                    </td>
+                </tr>
             </table>
-            <asp:Button ID="btnRegister" runat="server" Text="Register" OnClick="btnRegister_Click"></asp:Button>
-        </div>
+            
     </form>
 </body>
 </html>
