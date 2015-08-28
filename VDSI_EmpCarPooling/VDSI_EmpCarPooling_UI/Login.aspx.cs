@@ -24,7 +24,7 @@ namespace VDSI_EmpCarPooling.VDSI_EmpCarPooling_UI
                 if (!string.IsNullOrEmpty(empId))
                 {
                     Session["EmpId"] = empId;
-                    Response.Redirect("CarPooling_RegisterVehicle.aspx");
+                    Response.Redirect("Menupage.aspx");
                 }
                 else
                 {

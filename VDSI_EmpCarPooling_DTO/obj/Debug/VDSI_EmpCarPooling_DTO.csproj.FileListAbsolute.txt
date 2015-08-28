@@ -2,3 +2,4 @@ C:\Users\Administrator\Documents\Visual Studio 2012\Projects\VDSI_EmpCarPooling\
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\VDSI_EmpCarPooling\VDSI_EmpCarPooling_DTO\bin\Debug\VDSI_EmpCarPooling_DTO.pdb
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\VDSI_EmpCarPooling\VDSI_EmpCarPooling_DTO\obj\Debug\VDSI_EmpCarPooling_DTO.dll
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\VDSI_EmpCarPooling\VDSI_EmpCarPooling_DTO\obj\Debug\VDSI_EmpCarPooling_DTO.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\VDSI_EmpCarPooling\VDSI_EmpCarPooling_DTO\obj\Debug\VDSI_EmpCarPooling_DTO.csprojResolveAssemblyReference.cache
